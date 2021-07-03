@@ -31,7 +31,7 @@ maLED.defautCouleur(“blanc”);
 delay(300);
 maLED.defautCouleur(“rouge”);
 delay(300);
-maLED.defautCouleur(“vert”);		<!-- or vert. I’ll check.
+maLED.defautCouleur(“vert”);	
 delay(300);
 maLED.defautCouleur(“bleu”);
 delay(300);
