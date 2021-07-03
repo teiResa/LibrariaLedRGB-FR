@@ -1,0 +1,19 @@
+Caution: This file is gibberish. It will absolutely not work without being added to his .h file.
+
+Attention: cela ne fonctionnera pas. Il doit être ajouté à un autre fichier.
+
+To go into Class > public (below line 16):
+
+void poserCouleur(int CR, int CG, int CB);      //setColor
+
+void defautCouleur(String color);               //created default colour for french use
+
+void ajouter(int addR, int addG, int addB);     //sumar == ajouter == add
+
+void enlever(int  restR, int restG, int restB); //restar == enlever  == remove
+
+void eteindre();          //apagar == enteindre (to power off)
+void tester();            // testear == tester  (to test it)
+
+effetFlash(int delON, int delOFF);    //efectoFlash == flash effect
+effetFade(int fR, int fG, int fB);    //efectoFade == fade effect
