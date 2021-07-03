@@ -31,11 +31,11 @@ maLED.defautCouleur(“blanc”);
 delay(300);
 maLED.defautCouleur(“rouge”);
 delay(300);
-maLED.defautCouleur(“verte”);		<!-- or vert. I’ll check.
+maLED.defautCouleur(“vert”);		<!-- or vert. I’ll check.
 delay(300);
 maLED.defautCouleur(“bleu”);
 delay(300);
-maLED.defautCouleur(“jeune”);
+maLED.defautCouleur(“jaune”);
 delay(300);
 maLED.defautCouleur(“orange”);
 delay(300);
