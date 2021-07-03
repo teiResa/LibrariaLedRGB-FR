@@ -3,7 +3,7 @@
 *
 *Ce programme testera les ‘pins’ (ou broches) de couleurs rouge (R), verte (G), et bleu (B):
 *	-	300ms pour rouge
-*	-	300ms pour verte
+*	-	300ms pour vert
 *	-	300ms pour bleu
 *	-	300ms pour blanc (toutes les couleurs)
 *
