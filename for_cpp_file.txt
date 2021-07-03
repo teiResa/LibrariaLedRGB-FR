@@ -1,0 +1,89 @@
+Title:			for_cpp_file.txt
+
+
+LINE 35
+
+void LedRGB::poserCouleur(int CR, int CG, int CB){
+	ponerColor(CR, CG, CB);
+}
+
+
+
+LINE 109
+
+void LedRGB::defautCouleur(String color){
+	_color = color;
+	if(_color == “blanc”){
+	ponerColor(255, 255, 255);
+	}else if(_color == “rouge”){
+	ponerColor(255, 0, 0);
+	}else if(_color == “vert”){
+	ponerColor(0, 255, 0);
+	}else if(_color == “bleu”){
+	ponerColor(0, 0, 255);
+	}else if(_color == “jaune”){
+	ponerColor(255, 255, 0);
+	}else if(_color == “orange”){
+	ponerColor(255, 150, 0);
+	}else if(_color == “mauve”){
+	ponerColor(150, 0, 255);
+	}else if(_color == “turquoise”){
+	ponerColor(0, 255, 220);
+	}else if(_color == “gris”){
+	ponerColor(70, 70, 70);
+	}else if(_color == “marron”){
+	ponerColor(176, 54, 72);
+	}else if(_color == “fuchsia”){
+	ponerColor(255, 0, 255);
+	} else {
+	ponerColor(0, 0, 0);
+	}
+}
+
+
+LINE 119
+
+void LedRGB::ajouter(int sumR, int sumG, int sumB) {
+	sumar(addR, addG, addB);
+}
+
+LINE 129
+
+void LedRGB::enlever(int restR, int restG, int restB) {
+	restar(restR, restG, restB);
+}
+
+
+
+LINE 144
+
+void LedRGB::tester(){
+	testear();
+}
+
+
+
+
+LINE 151
+
+void LedRGB::eteindre(){
+	ponerColor(0, 0, 0);
+}
+
+
+
+
+LINE 165
+
+void LedRGB::effetFlash(int delON, int delOFF){
+	efectoFlash(delON, delOFF);
+}
+
+
+
+
+LINE 187
+
+void LedRGB::effetFade(int fR, int fG, int fB){
+	efectoFade(fR, fG, fB);
+}
