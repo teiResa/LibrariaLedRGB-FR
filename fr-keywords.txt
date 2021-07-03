@@ -1,0 +1,17 @@
+This documents has the keywords for using this library "en français".
+
+Ce fichier contient les mots-clés de la bibliothèque.
+
+Français            Anglais           Classificateur    
+
+LedRGB
+poserCouleur	  	(setColor)          	KEYWORD2
+defautCouleur		  (defaultColor)      	KEYWORD2
+
+ajouter		      	(add)	                KEYWORD2
+enlever		       	(subtract)	          KEYWORD2
+tester			      (test)	              KEYWORD2
+eteindre		      (off)	                KEYWORD2      //should it be ferme like “fermé la lumière”?
+
+effetFlash	    	(“effect” flash)	    LITERAL1
+effetFade		       (“effect” fade)	  	LITERAL1
